@@ -77,7 +77,6 @@ img {
 /* style header section */
 .header {
   min-height: 100vh;
-  padding-top: 50px;
   background: rgba(229, 84, 115, 0.1);
 }
 .header-content {
@@ -87,8 +86,8 @@ img {
   gap: 30px;
 }
 .header-img {
-  height: 100%;
-  max-height: 700px;
+  height: 92%;
+  max-height: 720px;
   margin-left: auto;
   align-self: flex-end;
 }
@@ -127,7 +126,8 @@ img {
 }
 
 /* Hot deal section */
-.hot-deal {
+.hot-deal,
+.about {
   padding-block: 80px;
   background: rgba(229, 84, 115, 0.05);
 }
@@ -139,6 +139,22 @@ img {
 }
 .hot-deal .description {
   margin-bottom: 30px;
+}
+
+/* style about section */
+.about {
+  text-align: left;
+}
+.about-content {
+  max-width: 500px;
+  margin-left: auto;
+}
+.about img {
+  max-width: 550px;
+  border-radius: 8px;
+}
+.about .description {
+  margin-bottom: 16px;
 }
 
 /* style subscription section */
